@@ -1,0 +1,398 @@
+body {
+    background-image: url(../img/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+section{
+    width: 2500px;
+    width: 1500px;
+}
+
+.boxes{
+    height: 900px;
+	float:left;
+}
+
+.box1{
+    width: 23%;
+    background-color: #DFCDC9;
+}
+.box2{
+    width: 88%;
+    margin-left: 25px;
+    margin-right: 60px;
+    margin-top: 40px;
+}
+
+#container{
+    width: 77%;   
+}
+
+.filter{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(243, 243, 246, 0.2);
+}
+
+.box4{
+    width: 100%;
+    height: 100px;
+}
+
+.form-login{
+    height: 450px;
+    width: 400px;    
+    margin-left: 100px;
+    margin-top: 20px;
+    padding: 50PX 40px;
+   
+}
+
+.img1{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.img2{
+    padding-top: 40px;
+    margin-left: 45px;
+    width: 180px;
+    height: 50px;
+}
+
+.controls{
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 5px;
+    margin-bottom: 35px;
+    font-size: 20px;
+    border: 8px;
+    border-radius: 8px;
+}
+.controls2{
+    width: 80%;
+    padding-top: 15px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    border: 2px solid #FEDC5F;
+    border-radius: 8px;
+}
+
+.controls2::placeholder{
+    background-image: url(../img/search.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position:right center;
+}
+
+.btn{
+    border-radius: 25px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.btn2{
+    width: 270px;
+    height: 50px;
+    background-color: white;
+    position:absolute;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius:520px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.btn3{
+    width: 270px;
+    height: 50px;
+    text-align: left;
+    background-color: white ;
+    color: #3E160D;
+    position: relative;
+    left:  30px;
+    top: 10px;
+}
+.btn4{
+    padding: 50px 50px;   
+    color: white;
+    position: relative;
+    left:  300px;
+    bottom:  30px;
+}
+
+.imgbtn{    
+    background-image: url(../img/plus1.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position:left center;
+    padding-left: 50px;
+}
+
+.imgbtn2{
+    background-image: url(../img/close.png);
+    background-size: 26px 26px;
+    background-repeat: no-repeat;
+    background-position:left center;
+    padding-left: 50px;
+}
+
+.button1{
+    width: 45%;
+    background-color: white ;
+    position: relative;
+    color: #3E160D;
+    margin-right: 100px;
+}
+
+.button2{
+    width: 12%;
+    position: fixed;
+    text-align: left;
+    background-color: #3E160D ;
+    color: white;
+}
+
+section p {
+    background-color: rgba(68, 39, 13, 0.355);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    border-radius: 25px;
+}
+section p a{
+    color: white;
+    
+}
+
+input{
+    display: inline-block;
+    font-size: 20px;
+    outline: none;
+    padding: 0 20px;
+    padding-bottom: 8px;
+}
+
+.hr1{  
+    position: relative;
+    bottom: 22px; 
+}
+
+.li1{
+    display: list-item;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-top: 25px;
+    list-style-type: none;
+    padding-left: 45px;    
+}
+.li2{
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+    padding-left: 5px;
+    position: relative;
+    bottom: 22px;
+}
+
+.liimg3{
+    background-image: url(../img/home.png);
+}
+.liimg4{
+    background-image: url(../img/shopping.png);
+}
+.liimg5{
+    background-image: url(../img/plus.png);
+}
+.liimg6{
+    background-image: url(../img/user.png);
+}
+.liimg7{
+    background-image: url(../img/question.png);
+}
+.liimg8{    
+    background-image: url(../img/close.png);   
+}
+
+h1{
+    font-size: 25px;
+    color: aliceblue;       
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.h1_1{
+    position: relative;
+    top: 15px;
+    left: 50px;
+}
+
+.h1_2{
+    position: relative;
+    top: 115px;
+    left: 50px;
+}
+.h1_3{
+    position: relative;
+    top: 215px;
+    left: 50px;
+}
+.h1_4{
+    position: relative;
+    top: 315px;
+    left: 50px;
+}
+
+h2{
+    position: relative;
+    bottom: 25px;
+}
+
+h3{
+    position: relative;
+    bottom:  15px;
+    left:  15px;
+}
+
+h4{
+    font-size: 17px;
+    padding-left: 5px;
+}
+
+h5{
+    font-size: 15px;
+    color: black;
+}
+
+h6{
+    color: black;
+    font-size: 18px;
+    position: absolute;
+    left: 145px;
+    bottom:  40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo{
+    color: black;
+    position: relative;
+    right: 100px;
+    top: 15px;
+    font-size: 21px;
+}
+
+.subtitle{
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.padre{
+    width: 100%;
+    height: 780px;
+}
+.hijos{
+    border-radius: 40px 40px 40px 40px; 
+    width: 1100px; 
+    position: absolute ; 
+    right: 0px;
+    background-color: rgba(221, 215, 199, 0.486)
+}
+.hijo1{
+    height: 130px;
+   
+}
+.hijo2{
+    height: 130px;
+    margin-top: 100px;
+}
+.hijo3{
+    height: 130px;
+    margin-top: 200px;
+}
+.hijo4{
+    height: 130px;
+    margin-top: 300px;
+}
+
+.hijos5{
+    height: 110px;
+    width: 680px; 
+    border-radius: 40px 40px 40px 40px;    
+    position: relative ; 
+    right:  110px;
+    background-color: rgba(221, 215, 199, 0.486)
+}
+.hijos6{
+    height: 110px;
+    width: 680px; 
+    border-radius: 40px 40px 40px 40px;    
+    position: relative ; 
+    right:  110px;
+    background-color: rgba(221, 215, 199, 0.486);   
+    
+}
+
+.cjta{
+    width: 160px;
+    height: 100px;
+    background-color: white;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.cjta1{
+    position: absolute;
+    right: 925px;
+    border-radius: 20px;
+    float: right;
+}
+.cjta2{
+    position: absolute;
+    right: 755px;
+    border-radius: 20px;
+    float: right;
+}
+.cjta3{
+    position: absolute;
+    right: 585px;
+    border-radius: 20px;
+    float: right;
+}
+
+
+.pedidos{
+    border-radius: 40px 0px 0px 40px; 
+    width: 700px; 
+    height: 900px;
+    position: fixed ; 
+    right:   0px;
+    top: 0px;
+    bottom: 0px;
+    background-color: white;
+}
+td{
+    border: 0.5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.default1{
+    position: relative;
+    top: 25px;
+    right: 90px;
+}
